@@ -1,8 +1,6 @@
-salario = int(input("insira seu salario:"))
-parcela = int(input("insira sua parcela"))
-emprestimo = int(input("insira o valor do emprestimo"))
-taxa = salario * 0.8
-if taxa > salario:
-    print("trasição negada")
+salario = float(input("digite o valor do salário: "))
+parcela = float(input("digite o valor da parcela: "))
+if parcela <= 0.08 * salario:
+    print("empréstimo concedido!")
 else:
-    print("transição aprovada")
+    print("empréstimo não concedido.")
