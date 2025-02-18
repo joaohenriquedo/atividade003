@@ -9,7 +9,7 @@ if risco == "BX":
                 else:
                     print("Aplicação recomendada: Renda Fixa")
 elif risco == "AL":
-                if valor < 1000:
+                if valor > 1000:
                     print("Aplicação recomendada: Bitcoins")
                 else:
                     print("Aplicação recomendada: Ações")
