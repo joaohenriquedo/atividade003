@@ -13,3 +13,4 @@ elif sexo == "homem":
         print("você não atende à faixa etária para o alistamento.")
 else:
     print("sexo inválido. Por favor, informe 'homem' ou 'mulher'.")
+print("joão Henrique")
